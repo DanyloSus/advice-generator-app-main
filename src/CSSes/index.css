@@ -4,4 +4,21 @@
 @tailwind utilities;
 :root {
   font-family: "Manrope", sans-serif;
+}
+
+.top {
+  animation: top 1s ease-in-out 0.5s backwards;
+}
+
+@keyframes top {
+  0% {
+    position: relative;
+    top: 20px;
+    opacity: 0;
+  }
+  100% {
+    position: relative;
+    top: 0px;
+    opacity: 1;
+  }
 }/*# sourceMappingURL=index.css.map */

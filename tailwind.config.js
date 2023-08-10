@@ -11,6 +11,9 @@ export default {
         "dark-grayish-blue": "hsl(217, 19%, 24%)",
         "dark-blue": "hsl(218, 23%, 16%)",
       },
+      dropShadow: {
+        "button-shadow": "0 0 50px hsl(150, 100%, 66%)",
+      },
     },
   },
   plugins: [],
